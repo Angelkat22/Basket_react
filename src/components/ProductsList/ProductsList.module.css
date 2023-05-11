@@ -1,0 +1,42 @@
+
+
+.list{
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.list button {
+    border: none;
+    background-color: var(--green-color);
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s;
+
+}
+
+.list button:hover {
+    background-color: white;
+    color: var(--green-color);
+    border: 2px solid green;
+    scale: 1.2;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+.basket {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+}

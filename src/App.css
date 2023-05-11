@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --green-color: #51b12e;
+
+  --hover-time: .4s;
+}
+
+body {
+  background-image: url(../public/images/tr.jpg);
+  background-size: cover;
+} 
+
+.container {
+  padding: 0 15px;
+	margin: 0 auto;
+
+	max-width: 1000px;
+	width: 100%;
+}
+.list {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 40px;
+}
+
